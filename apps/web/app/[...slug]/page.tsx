@@ -1,15 +1,16 @@
-import { productSearchService, contentService } from "@/utils/services"
+import { contentService } from "@/utils/services"
+import { Stack } from '@mui/material';
 import ContentItem from "@/components/content/ContentItem"
 
-export default async function Page({params}: {params: {slug: string}}) {
+export default async function Page({params}: {params: {slug: string[]}}) {
 
-  const content = await contentService.getContent(params.slug)
-
+  const content = await contentService.getContent(params.slug.join("/"))
+  
   return (
-      <>
-        { content.map(item => (
-          <ContentItem key={item._meta.schema} content={item} /> 
-        )) }
-      </>
+    <Stack spacing={2}>
+      { content.map(item => (
+        <ContentItem key={item._meta.schema} content={item} /> 
+      )) }
+    </Stack>
   )
 }
