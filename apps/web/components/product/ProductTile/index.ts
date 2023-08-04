@@ -1,5 +1,5 @@
 import ProductTile from './ProductTile'
-import { ProductTileProps } from './ProductTile.type'
+import { Props as ProductTileProps } from './ProductTile'
 
 export type { ProductTileProps }
 export default ProductTile

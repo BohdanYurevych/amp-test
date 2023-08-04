@@ -6,9 +6,14 @@ import AddToCartSection from '@/components/product/AddToCartSection'
 import { Stack } from "@mui/material";
 import Typography from "@mui/material/Typography";
 
-import { ProductInfoProps } from './ProductInfo.type'
+export interface Props {
+    stars: number
+    price: string
+    available: number
+    shortDescription: string
+}
 
-const ProductInfo: React.FC<ProductInfoProps> = props => {
+const ProductInfo: React.FC<Props> = props => {
     return (
         <Paper elevation={3} >
             <Stack sx={{padding: 2}} direction="column" spacing={2}>

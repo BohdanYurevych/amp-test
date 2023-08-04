@@ -1,5 +1,13 @@
 import { generateRandomProduct, generateRandomProducts, generateRandomSimilarProducts } from './products'
 import { generateRandomCategory, generateRandomCategories } from './categroy'
-import { generateTextContent, generateTextContentItems } from './content'
+import { generateTextContent, generateTextContentItems, generateBrandContentItems } from './content'
 
-export { generateRandomProduct, generateRandomProducts, generateRandomSimilarProducts, generateRandomCategory, generateRandomCategories, generateTextContent, generateTextContentItems }
+export {    generateRandomProduct, 
+            generateRandomProducts, 
+            generateRandomSimilarProducts, 
+            generateRandomCategory, 
+            generateRandomCategories, 
+            generateTextContent, 
+            generateTextContentItems,
+            generateBrandContentItems,
+        }

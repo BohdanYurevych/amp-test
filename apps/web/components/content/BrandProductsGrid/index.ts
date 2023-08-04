@@ -1,5 +1,5 @@
 import BrandProductsGrid from './BrandProductsGrid'
-import { BrandProductsGridProps } from './BrandProductsGrid.type'
+import { Props as BrandProductsGridProps } from './BrandProductsGrid'
 
 export type { BrandProductsGridProps }
 

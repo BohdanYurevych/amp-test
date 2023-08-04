@@ -9,9 +9,13 @@ import RemoveIcon from '@mui/icons-material/Remove';
 import InputBase from '@mui/material/InputBase';
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { AddToCartSectionProps } from './AddToCartSection.type'
 
-const AddToCartSection: React.FC<AddToCartSectionProps> = props => {
+export interface Props {
+    buttonText: string
+    maxQuantity: number
+}
+
+const AddToCartSection: React.FC<Props> = props => {
 
     const [quantityInput, setQuantityInput] = useState(1)
 

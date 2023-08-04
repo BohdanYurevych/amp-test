@@ -2,11 +2,16 @@ import React from 'react'
 
 import { productSearchService } from "@/utils/services"
 import ProductGrid from "@/components/product/ProductGrid";
-import { BrandProductsGridProps } from './BrandProductsGrid.type'
+import { ContentItemType }   from '@/utils/models'
 
-const BrandProductsGrid: React.FC<BrandProductsGridProps> = async props => {
+export interface Props extends ContentItemType {
+    _meta: { schema: "brand-products"}
+    brandId: string
+}
 
-    const products = await productSearchService.getProductsByBrand(props.brandId)
+const BrandProductsGrid: React.FC<Props> = async ({ brandId }) => {
+
+    const products = await productSearchService.getProductsByBrand(brandId)
 
     return (
         <ProductGrid products={products}/>

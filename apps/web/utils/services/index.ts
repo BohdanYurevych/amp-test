@@ -3,4 +3,8 @@ import { productDetailsService } from './productDetailsService/productDetails.se
 import { categoryService } from './categoryService/category.service'
 import { contentService } from './contentService/content.service'
 
-export { productSearchService, productDetailsService, categoryService, contentService }
+export { productSearchService, 
+    productDetailsService, 
+    categoryService, 
+    contentService, 
+}

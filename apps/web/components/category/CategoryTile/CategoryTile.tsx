@@ -6,9 +6,14 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image"
 import Link from 'next/link'
 
-import { CategoryTileProps } from './CategoryTile.type'
+export interface Props {
+    id: string
+    image: string
+    name: string
+    shortDescription: string
+}
 
-const CategoryTile: React.FC<CategoryTileProps> = props => {
+const CategoryTile: React.FC<Props> = props => {
     return (
         <Link style={{textDecoration: "auto"}} href={`/category/${props.id}`}>
             <Paper elevation={4} >

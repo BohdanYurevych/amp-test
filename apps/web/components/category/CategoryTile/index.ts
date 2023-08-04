@@ -1,5 +1,5 @@
 import CategoryTile from './CategoryTile'
-import { CategoryTileProps } from './CategoryTile.type'
+import { Props as CategoryTileProps } from './CategoryTile'
 
 export type { CategoryTileProps }
 export default CategoryTile

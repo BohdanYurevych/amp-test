@@ -2,13 +2,17 @@ import React from 'react'
 import Grid from '@mui/material/Unstable_Grid2';
 import CategoryTile from '@/components/category/CategoryTile';
 
-import { CategoryGridProps } from './CategoryGrid.type'
+import { CategoryTileProps } from '@/components/category/CategoryTile'
 
-const CategoryGrid: React.FC<CategoryGridProps> = props => {
+export interface Props {
+    categories: CategoryTileProps[]
+}
+
+const CategoryGrid: React.FC<Props> = ({ categories }) => {
     return (
         <>
             <Grid container spacing={2}>
-                { props.categories.map(cat => (
+                { categories.map(cat => (
                         <Grid key={cat.id} xs={12} md={6}>
                         <CategoryTile {...cat} />
                     </Grid>

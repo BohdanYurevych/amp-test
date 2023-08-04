@@ -1,8 +1,7 @@
 
 import 'server-only'
-import { generateTextContent, generateTextContentItems } from '@/utils/generator'
 import { ContentItemType } from '@/utils/models'
-import { generateBrandContentItems } from '@/utils/generator/content'
+import { generateBrandContentItems } from '@/utils/generator'
 
 
 class ContentService {

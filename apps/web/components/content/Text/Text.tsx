@@ -1,12 +1,17 @@
 import React from 'react'
 
 import Typography from "@mui/material/Typography";
-import { TextProps } from './Text.type'
+import { ContentItemType }   from '@/utils/models'
 
-const Text: React.FC<TextProps> = props => {
+export interface Props extends ContentItemType {
+    _meta: { schema: "text"}
+    text: string
+}
+
+const Text: React.FC<Props> = ({text}) => {
     return (
         <>
-            <Typography>{props.text}</Typography>
+            <Typography>{text}</Typography>
         </>
     )
 }

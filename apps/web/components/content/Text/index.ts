@@ -1,5 +1,5 @@
 import Text from './Text'
-import { TextProps } from './Text.type'
+import { Props as TextProps } from './Text'
 
 export type { TextProps }
 

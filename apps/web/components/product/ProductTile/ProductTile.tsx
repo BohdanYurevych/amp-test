@@ -7,9 +7,16 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image"
 import Link from 'next/link'
 
-import { ProductTileProps } from './ProductTile.type'
+export interface Props {
+    id: string
+    name: string
+    image: string
+    rating: number
+    price: string
+    available: number
+}
 
-const ProductTile: React.FC<ProductTileProps> = props => {
+const ProductTile: React.FC<Props> = props => {
     return (
         <Link href={`/product/${props.id}`}>
             <Paper elevation={4} >

@@ -2,13 +2,17 @@ import React from 'react'
 import Grid from '@mui/material/Unstable_Grid2';
 import ProductTile from '@/components/product/ProductTile';
 
-import { ProductGridProps } from './ProductGrid.type'
+import { ProductTileProps } from '@/components/product/ProductTile'
 
-const ProductGrid: React.FC<ProductGridProps> = props => {
+export interface Props {
+    products: ProductTileProps[]
+}
+
+const ProductGrid: React.FC<Props> = ({products}) => {
     return (
         <>
             <Grid container spacing={2}>
-                { props.products.map(product => (
+                { products.map(product => (
                         <Grid key={product.id} xs={12} md={3}>
                         <ProductTile {...product} />
                     </Grid>
