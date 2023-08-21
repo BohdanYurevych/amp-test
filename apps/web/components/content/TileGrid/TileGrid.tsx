@@ -6,7 +6,7 @@ import { TileProps } from '@/components/content/Tile'
 import Tile from '@/components/content/Tile'
 
 export interface Props extends ContentItemType {
-    _meta: { schema: "tile-grid"}
+    _meta: { schema: "https://github.com/BohdanYurevych/amp-test/tile-grid"}
     items: TileProps[]
 }
 

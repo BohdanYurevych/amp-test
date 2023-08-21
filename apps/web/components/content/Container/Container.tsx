@@ -4,7 +4,7 @@ import ContentItem from "@/components/content/ContentItem"
 import { ContentItemType }   from '@/utils/models'
 
 export interface Props extends ContentItemType {
-    _meta: { schema: "container"}
+    _meta: { schema: "https://github.com/BohdanYurevych/amp-test/container"}
     items: ContentItemType[]
 }
 

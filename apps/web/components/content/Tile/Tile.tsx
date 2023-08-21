@@ -1,19 +1,19 @@
 import React from 'react'
 
-import { ContentItemType }   from '@/utils/models'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { imageService }   from '@/utils/services'
+import { ImageLink }   from '@/utils/models'
 
-export interface Props extends ContentItemType {
-    _meta: { schema: "tile"}
+export interface Props {
     title: string
     subtitle: string
     image: {
         alt: string
-        url: string
+        url: ImageLink
     }
     link: string
 }
@@ -26,7 +26,7 @@ const Tile: React.FC<Props> = props => {
                 <CardMedia
                 component="img"
                 height="140"
-                image={props.image.url}
+                image={imageService.getImageUrl(props.image.url)}
                 alt={props.image.alt}
                 />
                 <CardContent>

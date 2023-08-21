@@ -1,19 +1,20 @@
 import React from 'react'
 
 import Typography from "@mui/material/Typography";
-import { ContentItemType }   from '@/utils/models'
+import { ContentItemType, ImageLink}   from '@/utils/models'
+import { imageService }   from '@/utils/services'
 import { Button, Paper, Stack } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import Box from '@mui/material/Box';
 import Image from "next/image"
 
 export interface Props extends ContentItemType {
-    _meta: { schema: "banner"}
+    _meta: { schema: "https://github.com/BohdanYurevych/amp-test/banner"}
     title: string
     subtitle: string
     image: {
+        url: ImageLink
         alt: string
-        url: string
     }
     button: {
         text: string
@@ -35,7 +36,7 @@ const Banner: React.FC<Props> = props => {
                             width={500} 
                             height={300} 
                             style={{ width: '100%', height: 'auto'}} 
-                            alt={props.image.alt} src={props.image.url} />
+                            alt={props.image.alt} src={imageService.getImageUrl(props.image.url)} />
                     </Grid>
                     <Grid  xs={12} md={7}>
                         <Box>

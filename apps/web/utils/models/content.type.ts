@@ -10,3 +10,12 @@ export type ContentItemWithMeta = {
 export type ContentItemType = {
     [key: string] : any
 } & ContentItemWithMeta
+
+export type ImageLink = {
+    _meta: {
+        schema: "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+    }
+    name: string
+    endpoint: string
+    defaultHost: string
+}

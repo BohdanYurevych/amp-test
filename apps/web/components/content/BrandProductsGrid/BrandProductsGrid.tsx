@@ -5,7 +5,7 @@ import ProductGrid from "@/components/product/ProductGrid";
 import { ContentItemType }   from '@/utils/models'
 
 export interface Props extends ContentItemType {
-    _meta: { schema: "brand-products"}
+    _meta: { schema: "https://github.com/BohdanYurevych/amp-test/brand-products"}
     brandId: string
 }
 

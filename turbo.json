@@ -1,9 +1,11 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": ["**/.env.*local"],
+  "globalEnv": ["AMP_HUB_URL"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
+      "env": ["AMP_HUB_URL"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {},

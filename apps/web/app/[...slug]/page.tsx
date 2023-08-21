@@ -4,7 +4,7 @@ import ContentItem from "@/components/content/ContentItem"
 
 export default async function Page({params}: {params: {slug: string[]}}) {
 
-  const content = await contentService.getContent(params.slug.join("/"))
+  const content = await contentService.getPageContent(params.slug.join("/"))
   
   return (
     <Stack spacing={2}>

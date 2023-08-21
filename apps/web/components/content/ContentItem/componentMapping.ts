@@ -6,10 +6,8 @@ import Tile from "@/components/content/Tile"
 import TileGrid from "@/components/content/TileGrid"
 
 export const Mapping: any = {
-    "text"           : Text,
-    "brand-products" : BrandProductsGrid,
-    "container"      : Container,
-    "banner"         : Banner,
-    "tile"           : Tile,
-    "tile-grid"      : TileGrid,
+    "https://github.com/BohdanYurevych/amp-test/brand-products" : BrandProductsGrid,
+    "https://github.com/BohdanYurevych/amp-test/container"      : Container,
+    "https://github.com/BohdanYurevych/amp-test/banner"         : Banner,
+    "https://github.com/BohdanYurevych/amp-test/tile-grid"      : TileGrid,
 }
