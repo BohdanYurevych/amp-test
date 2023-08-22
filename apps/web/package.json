@@ -14,11 +14,13 @@
     "@faker-js/faker": "^8.0.2",
     "@fontsource/roboto": "^5.0.5",
     "@mui/icons-material": "^5.14.1",
-    "@mui/material": "^5.14.2", 
+    "@mui/material": "^5.14.2",
+    "dc-visualization-sdk": "^1.1.0",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "server-only": "^0.0.1",
+    "swr": "^2.2.1",
     "ui": "*"
   },
   "devDependencies": {

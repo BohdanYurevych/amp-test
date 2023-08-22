@@ -2,7 +2,7 @@ import React from 'react'
 
 import Typography from "@mui/material/Typography";
 import { ContentItemType, ImageLink}   from '@/utils/models'
-import { imageService }   from '@/utils/services'
+import { imageService }   from '@/utils/services/imageService/image.service'
 import { Button, Paper, Stack } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import Box from '@mui/material/Box';

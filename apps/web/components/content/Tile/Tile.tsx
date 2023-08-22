@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import { imageService }   from '@/utils/services'
+import { imageService }   from '@/utils/services/imageService/image.service'
 import { ImageLink }   from '@/utils/models'
 
 export interface Props {

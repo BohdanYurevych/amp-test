@@ -1,5 +1,4 @@
 
-import 'server-only'
 import { generateRandomProducts, generateRandomSimilarProducts } from '@/utils/generator'
 import { ProductInfo } from '@/utils/models'
 
