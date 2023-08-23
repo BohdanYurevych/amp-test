@@ -15,6 +15,7 @@
     "@fontsource/roboto": "^5.0.5",
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.2",
+    "dc-extensions-sdk": "^2.2.0",
     "dc-visualization-sdk": "^1.1.0",
     "next": "^13.4.1",
     "react": "^18.2.0",
