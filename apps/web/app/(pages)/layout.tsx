@@ -3,24 +3,20 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 
-export const metadata = {
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },  
-}
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <CssBaseline />
-      <body>
+      <>
+        <AppBar component="header">
+          <Toolbar>{/* content */}</Toolbar>
+        </AppBar>
+        <Toolbar/>
         {children}
-      </body>
-    </html>
+      </>
   );
+  
 }

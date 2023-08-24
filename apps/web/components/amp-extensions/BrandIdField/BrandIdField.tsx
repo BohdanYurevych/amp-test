@@ -1,10 +1,8 @@
 'use client'
 import React from 'react'
 import { useState, useEffect } from 'react'
-import Typography from "@mui/material/Typography";
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
-
 import { init  } from 'dc-extensions-sdk';
 import type { ContentFieldExtension  } from 'dc-extensions-sdk';
 
@@ -36,7 +34,7 @@ const  BrandIdField: React.FC<Props> = ({ availableBrands }) => {
             const selectedOption = findOption(availableBrands, initValue)
             setSDK(sdk)
             setBrandId(selectedOption)
-            setBrandIdInputValue(selectedOption.label)
+            setBrandIdInputValue(selectedOption?.label)
         }
         initField();
     },[ availableBrands ])
