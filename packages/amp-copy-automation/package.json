@@ -1,0 +1,30 @@
+{
+  "name": "amp-copy-automation",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "run-export": "run-s export-*",
+    "export-settings": "dc-cli settings export ./hub-data/settings",
+    "export-extensions": "dc-cli extension export ./hub-data/extensions",
+    "export-content-type-schema": "dc-cli content-type-schema export ./hub-data/content-type-schema",
+    "export-content-type": "dc-cli content-type export ./hub-data/content-type",
+    "export-content-items": "dc-cli content-item export ./hub-data/content-items",
+    "export-search-index": "dc-cli search-index export ./hub-data/search-index",
+    "export-events": "dc-cli event export ./hub-data/events --snapshots",
+
+    "run-import": "run-s import-*",
+    "import-settings": "dc-cli settings import ./hub-data/settings",
+    "import-extensions": "dc-cli extension import ./hub-data/extensions",
+    "import-content-type-schema": "dc-cli content-type-schema import ./hub-data/content-type-schema",
+    "import-content-type": "dc-cli content-type import ./hub-data/content-type --sync",
+    "import-content-items": "dc-cli content-item import ./hub-data/content-items --publish",
+    "import-search-index": "dc-cli search-index import ./hub-data/search-index --webhooks",
+    "import-events": "dc-cli event import ./hub-data/events --acceptSnapshotLimits"
+  },
+  "dependencies": {
+    "@amplience/dc-cli": "^0.19.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

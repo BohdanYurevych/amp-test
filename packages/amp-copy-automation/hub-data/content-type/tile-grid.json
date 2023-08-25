@@ -1,0 +1,24 @@
+{
+  "contentTypeUri": "https://github.com/BohdanYurevych/amp-test/tile-grid",
+  "status": "ACTIVE",
+  "settings": {
+    "label": "Tile Grid",
+    "icons": [
+      {
+        "size": 256,
+        "url": "https://bigcontent.io/cms/icons/bond/bond-banner3col.png"
+      }
+    ],
+    "visualizations": [
+      {
+        "label": "local",
+        "templatedUri": "http://localhost:3000/preview/get?api={{vse.domain}}&content={{content.sys.id}}&realtime=true",
+        "default": true
+      }
+    ],
+    "cards": []
+  },
+  "repositories": [
+    "content"
+  ]
+}

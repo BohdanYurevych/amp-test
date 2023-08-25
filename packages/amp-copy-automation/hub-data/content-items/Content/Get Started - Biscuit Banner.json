@@ -1,0 +1,41 @@
+{
+  "id": "1798de6c-04fc-4d31-87b7-35b10f05965c",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": null,
+  "body": {
+    "_meta": {
+      "name": "Get Started - Biscuit Banner",
+      "schema": "https://get-started-dashboard.com/banner-schema",
+      "deliveryKey": "get-started-brunch-banner"
+    },
+    "validationLevel": "CONTENT_TYPE",
+    "headline": "Is it brunch time or break time?",
+    "strapline": "No matter the meal, model your content how your users want it.",
+    "background": {
+      "image": {
+        "defaultHost": "qc71eixs18mp1ipy7wzkiirbm.staging.bigcontent.io",
+        "endpoint": "cyanrabbit",
+        "id": "58db2bbe-12b9-4372-b59b-5744b3867761",
+        "name": "Brunch",
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      },
+      "alt": "Tea time"
+    },
+    "link": {
+      "url": "https://amplience.com/developers/docs/dev-tools/guides-tutorials/hierarchies/#about-hierarchies",
+      "title": "Learn how to model menus"
+    }
+  },
+  "version": 1,
+  "label": "Get Started - Biscuit Banner",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "createdDate": "2023-08-08T10:56:39.290Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-08T10:56:39.290Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-08T10:57:07.059Z",
+  "deliveryId": "1798de6c-04fc-4d31-87b7-35b10f05965c"
+}

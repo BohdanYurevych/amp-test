@@ -1,0 +1,60 @@
+{
+  "id": "7bfd9ef7-5484-499b-94cf-b626919fabc6",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e39a9a20a30d7d761c4c4f",
+  "body": {
+    "_meta": {
+      "name": "Nike page",
+      "schema": "https://github.com/BohdanYurevych/amp-test/page",
+      "deliveryKey": "brand/nike"
+    },
+    "content": {
+      "items": [
+        {
+          "_meta": {
+            "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          "contentType": "https://github.com/BohdanYurevych/amp-test/banner",
+          "id": "6f7cef3f-796c-4ef2-bb81-f62443a9947c"
+        },
+        {
+          "_meta": {
+            "name": "History banner",
+            "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          "id": "0c559532-1943-498e-95d5-72c8f7410299",
+          "contentType": "https://github.com/BohdanYurevych/amp-test/banner"
+        },
+        {
+          "_meta": {
+            "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          "contentType": "https://github.com/BohdanYurevych/amp-test/tile-grid",
+          "id": "15eac9ba-5b98-4119-b2c8-a0f19923b671"
+        },
+        {
+          "_meta": {
+            "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          "contentType": "https://github.com/BohdanYurevych/amp-test/brand-products",
+          "id": "a32c1518-f1d5-49a2-b54a-274dbeb69f13"
+        }
+      ],
+      "_meta": {
+        "schema": "https://github.com/BohdanYurevych/amp-test/container"
+      }
+    },
+    "title": "nike"
+  },
+  "version": 5,
+  "label": "Nike page",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-21T14:46:08.947Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-23T13:35:08.707Z",
+  "lastPublishedVersion": 5,
+  "lastPublishedDate": "2023-08-23T13:35:23.005Z",
+  "deliveryId": "7bfd9ef7-5484-499b-94cf-b626919fabc6"
+}

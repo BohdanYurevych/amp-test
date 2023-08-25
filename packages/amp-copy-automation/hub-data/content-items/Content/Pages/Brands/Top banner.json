@@ -1,0 +1,42 @@
+{
+  "id": "6434c58b-53cf-4e7c-97ec-36812eb4d28f",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e3763968e3416098a74151",
+  "body": {
+    "_meta": {
+      "name": "Top banner",
+      "schema": "https://github.com/BohdanYurevych/amp-test/banner"
+    },
+    "image": {
+      "url": {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        },
+        "id": "8f2ea572-dd27-43fa-9246-d7978108184a",
+        "name": "FootballBanner",
+        "endpoint": "cyanrabbit",
+        "defaultHost": "cdn.media.amplience.net"
+      },
+      "alt": "asd"
+    },
+    "imageAlign": "right",
+    "button": {
+      "text": "See brands",
+      "link": "/brand/all"
+    },
+    "title": "Our Brands",
+    "subtitle": "See our brands below.",
+    "color": "rgb(168, 224, 171)"
+  },
+  "version": 4,
+  "label": "Top banner",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-21T17:17:01.397Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-22T13:32:20.925Z",
+  "lastPublishedVersion": 4,
+  "lastPublishedDate": "2023-08-22T13:32:40.703Z",
+  "deliveryId": "6434c58b-53cf-4e7c-97ec-36812eb4d28f"
+}

@@ -1,0 +1,5 @@
+{
+  "body": "./schemas/banner-carousel-schema.json",
+  "schemaId": "https://get-started-dashboard.com/banner-carousel",
+  "validationLevel": "CONTENT_TYPE"
+}

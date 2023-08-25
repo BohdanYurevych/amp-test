@@ -1,0 +1,5 @@
+{
+  "body": "./schemas/container-schema.json",
+  "schemaId": "https://github.com/BohdanYurevych/amp-test/container",
+  "validationLevel": "CONTENT_TYPE"
+}

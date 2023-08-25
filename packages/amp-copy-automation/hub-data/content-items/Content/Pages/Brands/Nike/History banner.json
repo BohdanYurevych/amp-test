@@ -1,0 +1,42 @@
+{
+  "id": "0c559532-1943-498e-95d5-72c8f7410299",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e39a9a20a30d7d761c4c4f",
+  "body": {
+    "_meta": {
+      "name": "History banner",
+      "schema": "https://github.com/BohdanYurevych/amp-test/banner"
+    },
+    "image": {
+      "url": {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        },
+        "id": "a3cb7ad7-293f-4139-8f1b-19a2fb2e3a98",
+        "name": "swoosh-logo-black",
+        "endpoint": "cyanrabbit",
+        "defaultHost": "cdn.media.amplience.net"
+      },
+      "alt": "asd"
+    },
+    "imageAlign": "right",
+    "button": {
+      "text": "Learn more",
+      "link": "/brand/nike"
+    },
+    "title": "History",
+    "subtitle": "learn more about Nike",
+    "color": "rgb(243, 255, 75)"
+  },
+  "version": 1,
+  "label": "History banner",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-22T16:39:26.603Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-22T16:39:26.603Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-23T13:35:23.005Z",
+  "deliveryId": "0c559532-1943-498e-95d5-72c8f7410299"
+}

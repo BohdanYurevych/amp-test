@@ -1,0 +1,46 @@
+{
+  "id": "841f9f43-39a2-4e93-b3ae-4c442439e9dd",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": null,
+  "body": {
+    "_meta": {
+      "name": "Carousel with 3 Banners",
+      "schema": "https://get-started-dashboard.com/banner-carousel",
+      "deliveryKey": "get-started-carousel"
+    },
+    "validationLevel": "CONTENT_TYPE",
+    "banners": [
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://get-started-dashboard.com/banner-schema",
+        "id": "ecc9395e-bd7e-4a96-a6da-068913429a58"
+      },
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://get-started-dashboard.com/banner-schema",
+        "id": "1798de6c-04fc-4d31-87b7-35b10f05965c"
+      },
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://get-started-dashboard.com/banner-schema",
+        "id": "4104960d-2165-42f6-8449-a3a9f5ff8684"
+      }
+    ]
+  },
+  "version": 1,
+  "label": "Carousel with 3 Banners",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "createdDate": "2023-08-08T10:56:40.066Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-08T10:56:40.066Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-08T10:57:07.059Z",
+  "deliveryId": "841f9f43-39a2-4e93-b3ae-4c442439e9dd"
+}

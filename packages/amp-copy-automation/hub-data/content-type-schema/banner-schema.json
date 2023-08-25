@@ -1,0 +1,5 @@
+{
+  "body": "./schemas/banner-schema-schema.json",
+  "schemaId": "https://get-started-dashboard.com/banner-schema",
+  "validationLevel": "CONTENT_TYPE"
+}

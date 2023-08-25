@@ -1,0 +1,23 @@
+{
+  "hubId": "64c1884ac1f4a12c87d0d4e2",
+  "name": "brand-id-selector",
+  "label": "Brand Id Selector",
+  "description": "",
+  "url": "http://localhost:3000/amp-ext/brand-id-field",
+  "height": 200,
+  "enabledForAllContentTypes": false,
+  "category": "CONTENT_FIELD",
+  "parameters": "{}",
+  "snippets": [
+    {
+      "label": "Brand id selector",
+      "body": "{\r\n  \"title\": \"Brand\",\r\n  \"description\": \"Choose brand\",\r\n  \"type\": \"string\",\r\n  \"ui:extension\": {\r\n    \"name\": \"brand-id-selector\"\r\n  }\r\n}"
+    }
+  ],
+  "settings": "{\"API\":{\"READ\":false,\"EDIT\":false},\"SANDBOX\":{\"SAME_ORIGIN\":true,\"MODALS\":false,\"NAVIGATION\":false,\"POPUPS\":false,\"POPUP_ESCAPE_SANDBOX\":false,\"DOWNLOADS\":false,\"FORMS\":false}}",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "createdDate": "2023-08-23T10:41:22.300Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-23T11:47:51.584Z"
+}

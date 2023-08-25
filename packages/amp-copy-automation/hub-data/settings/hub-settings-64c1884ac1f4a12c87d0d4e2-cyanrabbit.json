@@ -1,0 +1,39 @@
+{
+  "id": "64c1884ac1f4a12c87d0d4e2",
+  "name": "cyanrabbit",
+  "label": "CyanRabbit Developer Trial Edition",
+  "settings": {
+    "devices": [
+      {
+        "name": "Desktop",
+        "width": 1024,
+        "height": 768,
+        "orientate": false
+      },
+      {
+        "name": "Tablet",
+        "width": 640,
+        "height": 768,
+        "orientate": false
+      },
+      {
+        "name": "Mobile",
+        "width": 320,
+        "height": 512,
+        "orientate": false
+      }
+    ],
+    "applications": [
+      {
+        "name": "local",
+        "templatedUri": "http://localhost:3000/visualisation?vse={{vse.domain}}&ts={{context.timestamp}}&edition={{context.edition.id}}"
+      }
+    ],
+    "localization": {
+      "locales": [
+        "en-US"
+      ]
+    }
+  },
+  "workflowStates": []
+}

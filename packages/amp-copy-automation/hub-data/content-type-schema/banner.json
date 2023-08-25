@@ -1,0 +1,5 @@
+{
+  "body": "./schemas/banner-schema.json",
+  "schemaId": "https://github.com/BohdanYurevych/amp-test/banner",
+  "validationLevel": "CONTENT_TYPE"
+}

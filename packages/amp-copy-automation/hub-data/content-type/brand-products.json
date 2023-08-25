@@ -1,0 +1,24 @@
+{
+  "contentTypeUri": "https://github.com/BohdanYurevych/amp-test/brand-products",
+  "status": "ACTIVE",
+  "settings": {
+    "label": "Brand Product Listing",
+    "icons": [
+      {
+        "size": 256,
+        "url": "https://bigcontent.io/cms/icons/experience-management/exp-instore.png"
+      }
+    ],
+    "visualizations": [
+      {
+        "label": "local",
+        "templatedUri": "http://localhost:3000/preview/get?api={{vse.domain}}&content={{content.sys.id}}&realtime=true",
+        "default": true
+      }
+    ],
+    "cards": []
+  },
+  "repositories": [
+    "content"
+  ]
+}

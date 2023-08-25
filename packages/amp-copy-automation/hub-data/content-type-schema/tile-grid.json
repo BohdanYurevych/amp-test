@@ -1,0 +1,5 @@
+{
+  "body": "./schemas/tile-grid-schema.json",
+  "schemaId": "https://github.com/BohdanYurevych/amp-test/tile-grid",
+  "validationLevel": "CONTENT_TYPE"
+}

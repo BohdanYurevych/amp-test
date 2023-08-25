@@ -1,0 +1,42 @@
+{
+  "id": "6f7cef3f-796c-4ef2-bb81-f62443a9947c",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e39a9a20a30d7d761c4c4f",
+  "body": {
+    "_meta": {
+      "name": "nike banner",
+      "schema": "https://github.com/BohdanYurevych/amp-test/banner"
+    },
+    "image": {
+      "url": {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        },
+        "id": "a3cb7ad7-293f-4139-8f1b-19a2fb2e3a98",
+        "name": "swoosh-logo-black",
+        "endpoint": "cyanrabbit",
+        "defaultHost": "cdn.media.amplience.net"
+      },
+      "alt": "alt"
+    },
+    "imageAlign": "left",
+    "button": {
+      "text": "See more",
+      "link": "/brand/nike/description"
+    },
+    "title": "Nike",
+    "subtitle": "The nike brand1",
+    "color": "rgb(109, 132, 201)"
+  },
+  "version": 3,
+  "label": "nike banner",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-21T14:40:24.231Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-23T13:32:54.117Z",
+  "lastPublishedVersion": 3,
+  "lastPublishedDate": "2023-08-23T13:35:23.005Z",
+  "deliveryId": "6f7cef3f-796c-4ef2-bb81-f62443a9947c"
+}
