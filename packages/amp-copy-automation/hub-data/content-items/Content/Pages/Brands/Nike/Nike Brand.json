@@ -1,0 +1,40 @@
+{
+  "id": "3aa7b681-78ef-4b75-935f-f3a9857adc56",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e882d58aab8164ecfaa40d",
+  "body": {
+    "_meta": {
+      "name": "Nike Brand",
+      "schema": "https://github.com/BohdanYurevych/amp-test/brand"
+    },
+    "image": {
+      "_meta": {
+        "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+      },
+      "id": "a3cb7ad7-293f-4139-8f1b-19a2fb2e3a98",
+      "name": "swoosh-logo-black",
+      "endpoint": "cyanrabbit",
+      "defaultHost": "cdn.media.amplience.net"
+    },
+    "content": {
+      "_meta": {
+        "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-reference"
+      },
+      "contentType": "https://github.com/BohdanYurevych/amp-test/brand-content",
+      "id": "01f42d7a-c0fc-41c0-a39c-a9a9ce768343"
+    },
+    "name": "Nike",
+    "description": "Nike description"
+  },
+  "version": 1,
+  "label": "Nike Brand",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-26T10:27:35.863Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T10:27:35.863Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T12:12:50.147Z",
+  "deliveryId": "3aa7b681-78ef-4b75-935f-f3a9857adc56"
+}

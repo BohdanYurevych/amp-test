@@ -1,7 +1,7 @@
 {
-  "id": "0c559532-1943-498e-95d5-72c8f7410299",
+  "id": "4f8bf853-8cc3-4113-8e3f-d5df5112ae1d",
   "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
-  "folderId": "64e39a9a20a30d7d761c4c4f",
+  "folderId": "64e9d2cb63858c3b5faab30f",
   "body": {
     "_meta": {
       "name": "History banner",
@@ -31,12 +31,12 @@
   "version": 1,
   "label": "History banner",
   "status": "ACTIVE",
-  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "createdBy": "9bc1b38f-2369-465b-b776-dc423fc55d05",
   "locale": "en-US",
-  "createdDate": "2023-08-22T16:39:26.603Z",
+  "createdDate": "2023-08-25T10:30:48.828Z",
   "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
-  "lastModifiedDate": "2023-08-22T16:39:26.603Z",
+  "lastModifiedDate": "2023-08-26T10:24:17.642Z",
   "lastPublishedVersion": 1,
-  "lastPublishedDate": "2023-08-23T13:35:23.005Z",
-  "deliveryId": "0c559532-1943-498e-95d5-72c8f7410299"
+  "lastPublishedDate": "2023-08-26T10:29:47.892Z",
+  "deliveryId": "4f8bf853-8cc3-4113-8e3f-d5df5112ae1d"
 }

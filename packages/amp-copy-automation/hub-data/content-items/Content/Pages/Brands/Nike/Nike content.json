@@ -1,0 +1,52 @@
+{
+  "id": "01f42d7a-c0fc-41c0-a39c-a9a9ce768343",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e882d58aab8164ecfaa40d",
+  "body": {
+    "_meta": {
+      "name": "Nike content",
+      "schema": "https://github.com/BohdanYurevych/amp-test/brand-content"
+    },
+    "items": [
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://github.com/BohdanYurevych/amp-test/banner",
+        "id": "4f8bf853-8cc3-4113-8e3f-d5df5112ae1d"
+      },
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://github.com/BohdanYurevych/amp-test/banner",
+        "id": "d13f3b1c-7b7f-4434-9a48-2b9370ffc7eb"
+      },
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://github.com/BohdanYurevych/amp-test/tile-grid",
+        "id": "cae0ce09-4ffd-44d7-afe8-99d9900d9a8c"
+      },
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://github.com/BohdanYurevych/amp-test/brand-products",
+        "id": "c146fe63-3317-4ab8-9be8-32420a23f09d"
+      }
+    ]
+  },
+  "version": 1,
+  "label": "Nike content",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-26T10:26:13.460Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T10:26:13.460Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T10:29:47.892Z",
+  "deliveryId": "01f42d7a-c0fc-41c0-a39c-a9a9ce768343"
+}

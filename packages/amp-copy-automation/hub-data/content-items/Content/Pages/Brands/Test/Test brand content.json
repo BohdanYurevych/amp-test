@@ -1,0 +1,40 @@
+{
+  "id": "99c798b9-3b97-41d3-917d-12adea13f9a5",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e9eb3c50962e7ce4adf829",
+  "body": {
+    "_meta": {
+      "name": "Test brand content",
+      "schema": "https://github.com/BohdanYurevych/amp-test/brand-content"
+    },
+    "items": [
+      {
+        "_meta": {
+          "name": "Top Banner",
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "id": "9faab153-8f54-480e-ae48-c970bfbe2753",
+        "contentType": "https://github.com/BohdanYurevych/amp-test/banner"
+      },
+      {
+        "_meta": {
+          "name": "Test Product Listing",
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "id": "70cebebc-2691-4d62-b142-2bf48e7bb922",
+        "contentType": "https://github.com/BohdanYurevych/amp-test/brand-products"
+      }
+    ]
+  },
+  "version": 1,
+  "label": "Test brand content",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-26T12:11:02.179Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T12:11:02.179Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T12:13:13.518Z",
+  "deliveryId": "99c798b9-3b97-41d3-917d-12adea13f9a5"
+}

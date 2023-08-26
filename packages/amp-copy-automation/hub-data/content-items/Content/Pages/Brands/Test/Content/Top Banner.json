@@ -1,0 +1,42 @@
+{
+  "id": "9faab153-8f54-480e-ae48-c970bfbe2753",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e9eb4e63847d45a4d5e1a4",
+  "body": {
+    "_meta": {
+      "name": "Top Banner",
+      "schema": "https://github.com/BohdanYurevych/amp-test/banner"
+    },
+    "image": {
+      "url": {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        },
+        "id": "58db2bbe-12b9-4372-b59b-5744b3867761",
+        "name": "Brunch",
+        "endpoint": "cyanrabbit",
+        "defaultHost": "cdn.media.amplience.net"
+      },
+      "alt": "asdasd"
+    },
+    "imageAlign": "right",
+    "button": {
+      "text": "Test",
+      "link": "/test"
+    },
+    "title": "The test test",
+    "subtitle": "The test test The test test",
+    "color": "rgb(222, 58, 91)"
+  },
+  "version": 1,
+  "label": "Top Banner",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-26T12:10:18.742Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T12:10:18.742Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T12:13:13.518Z",
+  "deliveryId": "9faab153-8f54-480e-ae48-c970bfbe2753"
+}

@@ -1,0 +1,39 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://github.com/BohdanYurevych/amp-test/brand-content",
+
+	"title": "Brand Content",
+	"description": "Brand Content Page",
+
+	"allOf": [
+		{
+			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+		}
+	],
+	
+	"type": "object",
+	"properties": {
+		"items": {
+			"title": "Content",
+			"type": "array",
+			"items": {
+				"allOf": [
+					{ "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link" },
+					{
+						"properties": {
+							"contentType": {
+								"enum": [
+									"https://github.com/BohdanYurevych/amp-test/brand-products",
+									"https://github.com/BohdanYurevych/amp-test/banner",
+									"https://github.com/BohdanYurevych/amp-test/tile-grid"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+		
+	},
+	"propertyOrder": []
+}

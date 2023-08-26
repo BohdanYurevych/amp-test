@@ -1,7 +1,7 @@
 {
-  "id": "ed50a66a-642b-470b-ab7c-a459c8f81d13",
+  "id": "98a70f9e-56dd-4f4e-a4de-53903f95ba43",
   "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
-  "folderId": "64e3763968e3416098a74151",
+  "folderId": "64e882d5007b082de3bad197",
   "body": {
     "_meta": {
       "name": "Brands Grid",
@@ -27,15 +27,15 @@
       }
     ]
   },
-  "version": 3,
+  "version": 1,
   "label": "Brands Grid",
   "status": "ACTIVE",
-  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "createdBy": "9bc1b38f-2369-465b-b776-dc423fc55d05",
   "locale": "en-US",
-  "createdDate": "2023-08-21T17:18:16.093Z",
-  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
-  "lastModifiedDate": "2023-08-21T17:45:33.929Z",
-  "lastPublishedVersion": 3,
-  "lastPublishedDate": "2023-08-21T17:48:11.495Z",
-  "deliveryId": "ed50a66a-642b-470b-ab7c-a459c8f81d13"
+  "createdDate": "2023-08-25T10:30:47.686Z",
+  "lastModifiedBy": "9bc1b38f-2369-465b-b776-dc423fc55d05",
+  "lastModifiedDate": "2023-08-25T10:30:47.991Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T12:05:10.591Z",
+  "deliveryId": "98a70f9e-56dd-4f4e-a4de-53903f95ba43"
 }

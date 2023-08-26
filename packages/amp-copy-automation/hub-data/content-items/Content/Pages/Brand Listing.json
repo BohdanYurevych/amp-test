@@ -1,0 +1,40 @@
+{
+  "id": "ef1fe517-7ee6-4fc3-b013-266e19e0cd20",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e882d48aab8164ecfaa40c",
+  "body": {
+    "_meta": {
+      "name": "Brand Listing",
+      "schema": "https://github.com/BohdanYurevych/amp-test/brand-listing",
+      "deliveryKey": "brands"
+    },
+    "brands": [
+      {
+        "_meta": {
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "contentType": "https://github.com/BohdanYurevych/amp-test/brand",
+        "id": "3aa7b681-78ef-4b75-935f-f3a9857adc56"
+      },
+      {
+        "_meta": {
+          "name": "Test Brand",
+          "schema": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+        },
+        "id": "6a36ac8f-07cc-42ac-b319-b4ecaccfc496",
+        "contentType": "https://github.com/BohdanYurevych/amp-test/brand"
+      }
+    ]
+  },
+  "version": 3,
+  "label": "Brand Listing",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-26T10:28:24.224Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T12:11:51.046Z",
+  "lastPublishedVersion": 3,
+  "lastPublishedDate": "2023-08-26T12:12:50.147Z",
+  "deliveryId": "ef1fe517-7ee6-4fc3-b013-266e19e0cd20"
+}

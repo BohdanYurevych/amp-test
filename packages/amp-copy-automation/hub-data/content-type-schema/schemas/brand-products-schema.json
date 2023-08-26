@@ -18,7 +18,7 @@
 			"description": "Choose brand",
 			"type": "string",
 			"ui:extension": {
-				"name": "brand-id-selector"
+				"name": "brand-id-selector2"
 			}
 		}
 		

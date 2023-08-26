@@ -1,0 +1,23 @@
+{
+  "id": "c146fe63-3317-4ab8-9be8-32420a23f09d",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e9d2cb63858c3b5faab30f",
+  "body": {
+    "_meta": {
+      "name": "Nike Product Listing",
+      "schema": "https://github.com/BohdanYurevych/amp-test/brand-products"
+    },
+    "brandId": "nike1234"
+  },
+  "version": 1,
+  "label": "Nike Product Listing",
+  "status": "ACTIVE",
+  "createdBy": "9bc1b38f-2369-465b-b776-dc423fc55d05",
+  "locale": "en-US",
+  "createdDate": "2023-08-25T10:30:50.715Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T10:24:17.557Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T10:29:47.892Z",
+  "deliveryId": "c146fe63-3317-4ab8-9be8-32420a23f09d"
+}

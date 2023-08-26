@@ -1,0 +1,5 @@
+{
+  "body": "./schemas/brand-listing-schema.json",
+  "schemaId": "https://github.com/BohdanYurevych/amp-test/brand-listing",
+  "validationLevel": "CONTENT_TYPE"
+}

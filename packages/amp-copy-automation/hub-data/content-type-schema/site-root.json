@@ -1,0 +1,5 @@
+{
+  "body": "./schemas/site-root-schema.json",
+  "schemaId": "https://github.com/BohdanYurevych/amp-test/site-root",
+  "validationLevel": "CONTENT_TYPE"
+}

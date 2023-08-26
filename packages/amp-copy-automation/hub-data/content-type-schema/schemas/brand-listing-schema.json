@@ -1,9 +1,9 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://github.com/BohdanYurevych/amp-test/container",
+	"$id": "https://github.com/BohdanYurevych/amp-test/brand-listing",
 
-	"title": "Container",
-	"description": "Container for other content type items",
+	"title": "Title",
+	"description": "Description",
 
 	"allOf": [
 		{
@@ -13,8 +13,8 @@
 	
 	"type": "object",
 	"properties": {
-		"items": {
-			"title": "Content Items",
+		"brands": {
+			"title": "Brands",
 			"type": "array",
 			"items": {
 				"allOf": [
@@ -23,10 +23,7 @@
 						"properties": {
 							"contentType": {
 								"enum": [
-									"https://github.com/BohdanYurevych/amp-test/brand-products",
-									"https://github.com/BohdanYurevych/amp-test/container",
-									"https://github.com/BohdanYurevych/amp-test/banner",
-									"https://github.com/BohdanYurevych/amp-test/tile-grid"
+									"https://github.com/BohdanYurevych/amp-test/brand"
 								]
 							}
 						}

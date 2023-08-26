@@ -1,0 +1,29 @@
+{
+  "id": "9a88a9e5-0e93-44a5-a047-64bc505a2c2d",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": null,
+  "body": {
+    "_meta": {
+      "name": "site",
+      "schema": "https://github.com/BohdanYurevych/amp-test/site-root",
+      "hierarchy": {
+        "root": true
+      }
+    },
+    "name": "site-root1"
+  },
+  "version": 5,
+  "label": "site",
+  "status": "ARCHIVED",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-25T16:09:53.643Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T12:05:55.434Z",
+  "lastPublishedVersion": 5,
+  "lastPublishedDate": "2023-08-26T12:05:16.937Z",
+  "hierarchy": {
+    "root": true
+  },
+  "deliveryId": "9a88a9e5-0e93-44a5-a047-64bc505a2c2d"
+}

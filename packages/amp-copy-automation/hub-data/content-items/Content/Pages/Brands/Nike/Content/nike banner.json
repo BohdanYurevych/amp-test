@@ -1,7 +1,7 @@
 {
-  "id": "6f7cef3f-796c-4ef2-bb81-f62443a9947c",
+  "id": "d13f3b1c-7b7f-4434-9a48-2b9370ffc7eb",
   "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
-  "folderId": "64e39a9a20a30d7d761c4c4f",
+  "folderId": "64e9d2cb63858c3b5faab30f",
   "body": {
     "_meta": {
       "name": "nike banner",
@@ -28,15 +28,15 @@
     "subtitle": "The nike brand1",
     "color": "rgb(109, 132, 201)"
   },
-  "version": 3,
+  "version": 1,
   "label": "nike banner",
   "status": "ACTIVE",
-  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "createdBy": "9bc1b38f-2369-465b-b776-dc423fc55d05",
   "locale": "en-US",
-  "createdDate": "2023-08-21T14:40:24.231Z",
+  "createdDate": "2023-08-25T10:30:50.119Z",
   "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
-  "lastModifiedDate": "2023-08-23T13:32:54.117Z",
-  "lastPublishedVersion": 3,
-  "lastPublishedDate": "2023-08-23T13:35:23.005Z",
-  "deliveryId": "6f7cef3f-796c-4ef2-bb81-f62443a9947c"
+  "lastModifiedDate": "2023-08-26T10:24:17.588Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T10:29:47.892Z",
+  "deliveryId": "d13f3b1c-7b7f-4434-9a48-2b9370ffc7eb"
 }

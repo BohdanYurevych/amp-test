@@ -1,0 +1,23 @@
+{
+  "id": "70cebebc-2691-4d62-b142-2bf48e7bb922",
+  "contentRepositoryId": "64c1885650962e7ce4a8bd4a",
+  "folderId": "64e9eb4e63847d45a4d5e1a4",
+  "body": {
+    "_meta": {
+      "name": "Test Product Listing",
+      "schema": "https://github.com/BohdanYurevych/amp-test/brand-products"
+    },
+    "brandId": "716659"
+  },
+  "version": 1,
+  "label": "Test Product Listing",
+  "status": "ACTIVE",
+  "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "locale": "en-US",
+  "createdDate": "2023-08-26T12:09:08.871Z",
+  "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+  "lastModifiedDate": "2023-08-26T12:09:08.871Z",
+  "lastPublishedVersion": 1,
+  "lastPublishedDate": "2023-08-26T12:13:13.518Z",
+  "deliveryId": "70cebebc-2691-4d62-b142-2bf48e7bb922"
+}

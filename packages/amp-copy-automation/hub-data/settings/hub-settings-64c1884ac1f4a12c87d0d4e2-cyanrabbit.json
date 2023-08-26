@@ -35,5 +35,15 @@
       ]
     }
   },
-  "workflowStates": []
+  "workflowStates": [
+    {
+      "id": "64e8898502ead87b584c6144",
+      "label": "done",
+      "createdBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+      "createdDate": "2023-08-25T10:59:17.599Z",
+      "lastModifiedBy": "592b55f3-c79e-4568-8190-6f5c839a059f",
+      "lastModifiedDate": "2023-08-25T10:59:17.599Z",
+      "color": "rgb(63,152,134)"
+    }
+  ]
 }
